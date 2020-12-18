@@ -1,0 +1,48 @@
+@font-face{
+	font-family: Mc;
+	scr: url(scr/fonts/Block/Minecraft-Five-852cb.otf);
+	font-weight: normal;
+	text-transform: uppercase;
+}@font-face{
+	font-family: Mc;
+	scr: url(scr/fonts/Block/Minecraft-Five-Bold-1f0de.otf);
+	font-weight: bold;
+	text-transform: uppercase;
+}@font-face{
+	font-family: Mc;
+	scr: url(scr/fonts/Block/Minecraft-Seven-852cb.otf);
+}@font-face{
+	font-family: Mc;
+	scr: url(scr/fonts/Block/Minecraft-Ten-60079.otf);
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+@font-face{
+	scr: url(scr/fonts/Smooth/zh-cn.ttf);
+	font-family: Smooth;
+}
+body{
+	margin: 10px;
+	background:#2f2f2f;
+	font-family: Consolas, "Courier New", Arial;
+	font-size: 16pt;
+	color: #FfFfFf;
+}
+header{
+	font-size:22pt;
+	font-family: Smooth;
+	text-decoration: underline;
+	/*font-weight: bold;*/
+	color: #ff0000;
+	letter-spacing: 1px;
+	text-align: center;
+}
+p{
+	font-size: 14pt;
+	font-family: Mc;
+}
+a{
+	font-family: Smooth;
+	/*text-decoration: none;*/
+	color: #2f2fff
+}
